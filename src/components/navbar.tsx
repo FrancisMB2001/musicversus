@@ -1,12 +1,12 @@
 import logo from '../assets/MVS_logo_background.png';
 
-export default function Header() {
+export default function Navbar() {
     return (
         <header className="bg-gray-900">
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="flex-1 flex-row flex">
                     <img className="logo h-10 max-w-xs object-contain" src={logo} alt="MusicVersus logo" />
-                    <a className="btn btn-ghost text-xl">MusicVersus</a>
+                    <a className="btn btn-ghost text-xl"><span className='text-primary'>Music</span><span className='text-secondary'>Versus</span></a>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">

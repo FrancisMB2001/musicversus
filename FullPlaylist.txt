@@ -1,0 +1,30 @@
+Full Playlist 
+Most recent songs (100) 
+Songs with specific genre 
+
+Options:
+Song
+Album 
+Artist
+
+Method of Voting:
+King of the Hill (Winning song stays, loser is replaced with a new song. Good for getting your top 1 song. Shorter) 
+Random Pair (Two songs are randomly chosen each round. Good for getting your global ranking of your playlist. Longer)
+
+
+Give ELO to each song? Each starts at 1000
+
+Developed an open data repository to support the Floresta Limpa project, aimed at improving wildfire prevention in Portugal through better monitoring of forest fuel breaks. The system is focused on spatiotemporal data received from multiple entities. The repository offers various APIs and other modular components, including the STAC (SpatioTemporal Asset Catalog) specification. Also implemented a data provenance system to ensure traceability and integrity of information. 
+Technologies: Node.js (TypeScript), Python, PostgreSQL, Neo4j, RabbitMQ, Docker, Artillery
+
+
+
+
+-> Buscar Playlist
+Só preciso dos IDs 
+-> Agrupar todos os ids numa lista 
+-> Dar shuffle 
+Ir buscar os primeiros 10 musicas (Nome, Imagem, Artista, Genero, depois ver como fazer preview da música 5 segundos) 
+Após escolha, imediatamente dar cache da próxima música, remover a anterior
+
+
